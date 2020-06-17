@@ -1,0 +1,67 @@
+<html>
+<meta charset="UTF-8">
+<head>
+<title>Hola mundo</title>    
+</head>
+<body>
+    
+<!--crear un select-->
+    <table width="200px" border="1" bgcolor="white">
+    <tr>
+    <th>Titulo 1</th>
+    <th>Titulo 2</th>   
+    </tr>
+     <tr>
+    <td> dato 1</td> 
+    <td> dato 2</td> 
+    </tr>   
+    </table>
+    
+    <!-- crear un selct-->
+<select name="lista1">
+    <option>valor1</option>
+    <option>valor2</option>
+    <option>valor3</option> 
+</select><br/><br/>
+    
+    <!-- crear un fromulario-->
+    <form name="formulario1" action="/recursoenservidor">
+    <fielset>
+        <legend>persona:</legend>
+        Name: <input type="text" size="30" name="nombre"/><br/>
+        Email:<input type="text" size="30" name="email"/>
+        <button type="submit">
+            Enviar datos
+        </button>
+        </fielset>
+    </form>
+    
+<!-- crear el radiobutton-->
+    <form action="" class="formulario">
+    <div class="radio">
+    <h2>radio buttons</h2>
+    
+    <input type="radio" name="sexo" id="hombre">
+    <label for="mujer">Hombre</label>
+    
+    <input type="radio" name="sexo" id="mujer">
+    <label for="mujer">Mujer</label>   
+       
+    <input type="radio" name="sexo" id="alien">
+    <label for="mujer">Alien</label> 
+        
+    </div>
+    </form>
+<!-- crear el checklist-->
+    <div class="checkbox">
+       <h2>Checks</h2>
+    
+    <input type="checkbox" name="checkbox" id="Mujer">
+    <label for="mujer">Mujer</label>
+     <input type="checkbox" name="checkbox" id="Hombre">
+    <label for="mujer">Hombre</label>
+    </div>
+    
+<a href="servicios.html">ir a servicios</a>
+</body>
+</html>
